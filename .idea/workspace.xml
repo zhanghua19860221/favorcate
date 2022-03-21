@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e8227c2-d5b1-4292-8e84-a1d735b843b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/ui/pages/detail/detail_content.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/pages/detail/detail_floating_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/viewmodel/favor_view_model.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/.filecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/app.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/debug_ios_bundle_flutter_assets.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/debug_ios_bundle_flutter_assets.stamp" afterDir="false" />
@@ -41,8 +40,11 @@
       <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/pages/detail/detail.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/pages/detail/detail.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/shared/app_theme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/shared/app_theme.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/pages/detail/detail_floating_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/pages/detail/detail_floating_button.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/meal_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/meal_item.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/operation_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/operation_item.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,25 +118,25 @@
       <screen x="1280" y="-29" width="1920" height="1055" />
     </state>
     <state x="1872" y="238" key="#main.dart/0.25.1280.775/1280.-29.1920.1055@1280.-29.1920.1055" timestamp="1647749485520" />
-    <state width="1878" height="191" key="GridCell.Tab.0.bottom" timestamp="1647832029614">
+    <state width="1878" height="899" key="GridCell.Tab.0.bottom" timestamp="1647841277157">
       <screen x="1280" y="-29" width="1920" height="1055" />
     </state>
     <state width="1878" height="191" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-29.1920.1055@1280.-29.1920.1055" timestamp="1647832029614" />
-    <state width="1878" height="187" key="GridCell.Tab.0.bottom/0.25.1280.775/1280.-29.1920.1055@1280.-29.1920.1055" timestamp="1647782585589" />
-    <state width="1878" height="191" key="GridCell.Tab.0.center" timestamp="1647832029611">
+    <state width="1878" height="899" key="GridCell.Tab.0.bottom/0.25.1280.775/1280.-29.1920.1055@1280.-29.1920.1055" timestamp="1647841277157" />
+    <state width="1878" height="899" key="GridCell.Tab.0.center" timestamp="1647841277156">
       <screen x="1280" y="-29" width="1920" height="1055" />
     </state>
     <state width="1878" height="191" key="GridCell.Tab.0.center/0.0.1280.800/1280.-29.1920.1055@1280.-29.1920.1055" timestamp="1647832029611" />
-    <state width="1878" height="187" key="GridCell.Tab.0.center/0.25.1280.775/1280.-29.1920.1055@1280.-29.1920.1055" timestamp="1647782585587" />
-    <state width="1878" height="191" key="GridCell.Tab.0.left" timestamp="1647832029610">
+    <state width="1878" height="899" key="GridCell.Tab.0.center/0.25.1280.775/1280.-29.1920.1055@1280.-29.1920.1055" timestamp="1647841277156" />
+    <state width="1878" height="899" key="GridCell.Tab.0.left" timestamp="1647841277156">
       <screen x="1280" y="-29" width="1920" height="1055" />
     </state>
     <state width="1878" height="191" key="GridCell.Tab.0.left/0.0.1280.800/1280.-29.1920.1055@1280.-29.1920.1055" timestamp="1647832029610" />
-    <state width="1878" height="187" key="GridCell.Tab.0.left/0.25.1280.775/1280.-29.1920.1055@1280.-29.1920.1055" timestamp="1647782585587" />
-    <state width="1878" height="191" key="GridCell.Tab.0.right" timestamp="1647832029613">
+    <state width="1878" height="899" key="GridCell.Tab.0.left/0.25.1280.775/1280.-29.1920.1055@1280.-29.1920.1055" timestamp="1647841277156" />
+    <state width="1878" height="899" key="GridCell.Tab.0.right" timestamp="1647841277157">
       <screen x="1280" y="-29" width="1920" height="1055" />
     </state>
     <state width="1878" height="191" key="GridCell.Tab.0.right/0.0.1280.800/1280.-29.1920.1055@1280.-29.1920.1055" timestamp="1647832029613" />
-    <state width="1878" height="187" key="GridCell.Tab.0.right/0.25.1280.775/1280.-29.1920.1055@1280.-29.1920.1055" timestamp="1647782585589" />
+    <state width="1878" height="899" key="GridCell.Tab.0.right/0.25.1280.775/1280.-29.1920.1055@1280.-29.1920.1055" timestamp="1647841277157" />
   </component>
 </project>
