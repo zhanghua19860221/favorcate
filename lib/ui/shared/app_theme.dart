@@ -13,6 +13,7 @@ class HYAppTheme {
 
   static final ThemeData norTheme = ThemeData(
       primarySwatch: Colors.pink,
+      accentColor: Colors.amber,
       //整个应用程序的背景颜色
       canvasColor: Color.fromRGBO(255, 254, 222, 1),
       textTheme: TextTheme(

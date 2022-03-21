@@ -1,5 +1,6 @@
 import 'package:favorcate/core/model/meal_model.dart';
 import 'package:flutter/material.dart';
+import 'package:favorcate/ui/pages/detail/detail_content.dart';
 
 class HYDetailScreen extends StatelessWidget {
   static const String routeName = "/detail";
@@ -11,9 +12,12 @@ class HYDetailScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(meal.title),
       ),
-      body: Center(
-        child: Text(meal.title),
-      ),
+
+      body: HYDetailContent(meal),
+      // floatingActionButton: HYDetailFloatingButton(meal),
+
     );
   }
+
+
 }
