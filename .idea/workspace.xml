@@ -20,31 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e8227c2-d5b1-4292-8e84-a1d735b843b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/core/viewmodel/favor_view_model.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/.filecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/app.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/debug_ios_bundle_flutter_assets.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/debug_ios_bundle_flutter_assets.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/flutter_assets.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/kernel_snapshot.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/5ef22174bc601c8da7fac0ce1145f737/kernel_snapshot.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/pages/detail/detail.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/pages/detail/detail.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/pages/detail/detail_floating_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/pages/detail/detail_floating_button.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/meal_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/meal_item.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/operation_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/operation_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/pages/favor/favor_content.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/pages/favor/favor.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/pages/favor/favor.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
