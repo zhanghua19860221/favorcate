@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e8227c2-d5b1-4292-8e84-a1d735b843b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/ui/pages/favor/favor_content.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/pages/favor/favor.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/pages/favor/favor.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/pages/home/home_app_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/pages/home/home_drawer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/pages/home/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/pages/home/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/shared/app_theme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/shared/app_theme.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
