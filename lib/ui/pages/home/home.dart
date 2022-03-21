@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'home_content.dart';
-import 'home_drawer.dart';
 import 'home_app_bar.dart';
 
 class HYHomeScreen extends StatelessWidget {
@@ -10,7 +9,6 @@ class HYHomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: HYHomeAppBar(context),
       body: HYHomeContent(),
-      drawer: HYHomeDrawer(),
     );
   }
 }

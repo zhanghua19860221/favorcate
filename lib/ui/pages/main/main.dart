@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:favorcate/ui/pages/main/initialize_items.dart';
+import 'package:favorcate/ui/pages/home/home_drawer.dart';
 
 class HYMainScreen extends StatefulWidget {
   static const String routeName = "/";
@@ -27,6 +28,7 @@ class _HYMainScreenState extends State<HYMainScreen> {
           });
         },
       ),
+      drawer: HYHomeDrawer(),
     );
   }
 }
