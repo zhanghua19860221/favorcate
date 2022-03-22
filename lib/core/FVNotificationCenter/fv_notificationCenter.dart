@@ -1,21 +1,21 @@
-class RCNotificationCenter {
+class FVNotificationCenter {
   // 单例
-  factory RCNotificationCenter() => _getInstance();
-  static RCNotificationCenter get instance => _getInstance();
-  static RCNotificationCenter _instance;
-  RCNotificationCenter._internal();
-  static RCNotificationCenter _getInstance() {
+  factory FVNotificationCenter() => _getInstance();
+  static FVNotificationCenter get instance => _getInstance();
+  static FVNotificationCenter _instance;
+  FVNotificationCenter._internal();
+  static FVNotificationCenter _getInstance() {
     if (_instance == null) {
-      _instance = RCNotificationCenter._internal();
+      _instance = FVNotificationCenter._internal();
     }
     return _instance;
   }
   //创建通知中心
-  List<RCNotificationModel> pool = [];
+  List<FVNotificationModel> pool = [];
 
   //添加监听者方法（加入通知中心）
   void addObserver(String postName, dynamic key,void notification(dynamic value)) {
-    RCNotificationModel model = RCNotificationModel.fromList([postName,key,notification]);
+    FVNotificationModel model = FVNotificationModel.fromList([postName,key,notification]);
     pool.add(model);
   }
 
@@ -45,12 +45,12 @@ class RCNotificationCenter {
 }
 
 /// 通知模型
-class RCNotificationModel{
+class FVNotificationModel{
   String postName;
   dynamic key; /// 根据key标记是谁加入的通知，一般直接传widget就好
   Function(dynamic value) notification;
   /// 简单写一个构造方法
-  RCNotificationModel.fromList(List list){
+  FVNotificationModel.fromList(List list){
     this.postName = list.first;
     this.key = list[1];
     this.notification = list.last;

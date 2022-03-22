@@ -16,7 +16,7 @@ class _HYFavorScreenState extends State<HYFavorScreen> {
     // TODO: implement initState
     super.initState();
     /// 加入通知中心
-    RCNotificationCenter().addObserver("favor",widget,(value){
+    FVNotificationCenter().addObserver("favor",widget,(value){
       print("接收到通知：$value");
       setState(() {});
     });
@@ -37,8 +37,8 @@ class _HYFavorScreenState extends State<HYFavorScreen> {
     super.dispose();
 
     /// 移除名字为postName的所有通知
-    RCNotificationCenter().removeOfName("favor");
+    FVNotificationCenter().removeOfName("favor");
     /// 移除标记为key的所有通知，一般在dispose()调用
-    RCNotificationCenter().removeOfKey(widget);
+    FVNotificationCenter().removeOfKey(widget);
   }
 }
