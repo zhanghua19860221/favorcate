@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class HYFavorContent extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return Consumer<HYFavorViewModel>(
@@ -13,7 +14,6 @@ class HYFavorContent extends StatelessWidget {
             child: Text("未收藏美食"),
           );
         }
-
         return ListView.builder(
             itemCount: favorVM.favorMeals.length,
             itemBuilder: (itemCtx, index) {
@@ -23,4 +23,5 @@ class HYFavorContent extends StatelessWidget {
       },
     );
   }
+
 }

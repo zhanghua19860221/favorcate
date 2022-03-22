@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:favorcate/core/model/meal_model.dart';
 import 'package:favorcate/core/extension/int_extension.dart';
 
-class HYDetailContent extends StatelessWidget {
+class HYDetailContent extends StatelessWidget{
 
   final  HYMealModel _meal;
   HYDetailContent(this._meal);
@@ -24,7 +24,6 @@ class HYDetailContent extends StatelessWidget {
       )
     );
   }
-
   // 1.横幅图片
   Widget buildBannerImage(BuildContext context){
     return Container(

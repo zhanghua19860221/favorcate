@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:favorcate/core/extension/int_extension.dart';
+import 'package:favorcate/ui/pages/filter/filter.dart';
 
 class HYHomeDrawer extends StatelessWidget {
   @override
@@ -15,7 +16,7 @@ class HYHomeDrawer extends StatelessWidget {
               Navigator.of(context).pop();
             }),
             buildListTile(context, Icon(Icons.settings), "过滤", () {
-
+              Navigator.of(context).pushNamed(HYFilterScreen.routeName);
             }),
           ],
         ),
