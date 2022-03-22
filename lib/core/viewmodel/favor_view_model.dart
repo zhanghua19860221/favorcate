@@ -13,10 +13,6 @@ class HYFavorViewModel extends ChangeNotifier {
 
   List<HYMealModel> get favorMeals {
     return _favorMeals.where((meal) {
-      print("${_filterVM.isGlutenFree}---${meal.isGlutenFree}");
-      print("${_filterVM.isLactoseFree}---${meal.isLactoseFree}");
-      print("${_filterVM.isVegetarian}---${meal.isVegetarian}");
-      print("${_filterVM.isVegan}---${meal.isVegan}\n\n");
       if (_filterVM.isGlutenFree && meal.isGlutenFree) return false;
       if (_filterVM.isLactoseFree && meal.isLactoseFree) return false;
       if (_filterVM.isVegetarian && meal.isVegetarian) return false;

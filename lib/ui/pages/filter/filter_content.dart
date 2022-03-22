@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:favorcate/core/extension/int_extension.dart';
 import 'package:provider/provider.dart';
 import 'package:favorcate/core/viewmodel/filter_view_model.dart';
+import 'package:favorcate/core/FVNotificationCenter/fv_notificationCenter.dart';
 
 class HYFilterContent extends StatelessWidget {
   @override
@@ -33,15 +34,23 @@ class HYFilterContent extends StatelessWidget {
             children: <Widget>[
               buildListTile("无谷蛋白", "无谷蛋白", filterVM.isGlutenFree, (value) {
                 filterVM.isGlutenFree = value;
+                RCNotificationCenter().postNotification("favor", "11111");
+
               }),
               buildListTile("不含乳糖", "不含乳糖", filterVM.isLactoseFree, (value) {
                 filterVM.isLactoseFree = value;
+                RCNotificationCenter().postNotification("favor", "2222");
+
               }),
               buildListTile("素食主义", "素食主义", filterVM.isVegetarian, (value) {
                 filterVM.isVegetarian = value;
+                RCNotificationCenter().postNotification("favor", "33333");
+
               }),
               buildListTile("严格素食主义", "严格素食主义", filterVM.isVegan, (value) {
                 filterVM.isVegan = value;
+                RCNotificationCenter().postNotification("favor", "44444");
+
               }),
             ],
           );

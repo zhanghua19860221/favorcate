@@ -3,8 +3,8 @@ import 'package:favorcate/ui/widgets/meal_item.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class HYFavorContent extends StatelessWidget {
 
+class HYFavorContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Consumer<HYFavorViewModel>(
