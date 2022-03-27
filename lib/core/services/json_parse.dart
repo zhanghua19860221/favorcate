@@ -12,7 +12,6 @@ class HYJsonParse{
     final result =  json.decode(jsonString);
     // 3.将Map中的内容转成一个个对象
     final resultList = result["category"];
-
     List<HYCategoryModel> categories = [];
     for (var json in resultList) {
       categories.add(HYCategoryModel.fromJson(json));

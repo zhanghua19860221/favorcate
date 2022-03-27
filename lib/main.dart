@@ -1,32 +1,14 @@
 import 'package:favorcate/core/router/router.dart';
-import 'package:favorcate/core/viewmodel/meal_view_model.dart';
-import 'package:favorcate/core/viewmodel/favor_view_model.dart';
-import 'package:favorcate/core/viewmodel/filter_view_model.dart';
 import 'package:favorcate/ui/shared/app_theme.dart';
 import 'package:favorcate/ui/shared/size_fit.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:favorcate/core/viewmodel/providers_view_model.dart';
 
 main(){
   runApp(
     MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (ctx)=> HYFilterViewModel()),
-        ChangeNotifierProxyProvider<HYFilterViewModel,HYMealViewModel>(
-          create: (ctx) => HYMealViewModel(),
-          update: (ctx, filterVM, mealVM) {
-            mealVM.updateFilters(filterVM);
-            return mealVM;
-          },
-        ),
-        ChangeNotifierProxyProvider<HYFilterViewModel, HYFavorViewModel>(
-          create: (ctx) => HYFavorViewModel(),
-          update: (ctx, filterVM, favorVM) {
-            favorVM.updateFilters(filterVM);
-            return favorVM;
-          },
-        ),
-      ],
+      providers: providers,
       child: MyApp(),
     )
   );
@@ -50,14 +32,15 @@ class MyApp extends StatelessWidget {
       theme: HYAppTheme.norTheme,
       //暗黑模式下的Theme
       darkTheme: HYAppTheme.darkTheme,
-      //设置路由
+      //设置命名路由
       routes: HYRouter.routes,
+      //钩子函数 可传参路由，相比于命名路由，可以多做一些相关的拦截 （当路由无法在routes 中查找到后 ，就会在onGenerateRoute 查找路由是否存在）
+      onGenerateRoute: HYRouter.generateRoute,
       //设置主页 (替代 home)
       initialRoute: HYRouter.initialRoute,
       //错误/未知路由跳转页面设置
       onUnknownRoute: HYRouter.unknownRoute,
-      //可以传参的，相比于命名路由，可以多做一些相关的拦截
-      onGenerateRoute: HYRouter.generateRoute,
+
     );
   }
 }
